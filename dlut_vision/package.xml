@@ -1,0 +1,27 @@
+<package>
+  <name>dlut_vision</name>
+  <version>0.0.0</version>
+  <description>ROS Nodes developed on SMartROB at DaLian University Of Technology.</description>
+
+
+  <author email="zhuang@dlut.edu.cn">Zhuang Yan</author>
+  <author>Yan Fei</author>
+  <author>Wu Nai Liang</author>
+
+  <maintainer email="zhuang@dlut.edu.cn">Zhuang Yan</maintainer>
+  <maintainer email="wunailiang@gmail.com">Wu Nai Liang</maintainer>
+  <license>BSD</license>
+  
+  <url type="website">http://www.ros.org/wiki/dlut_vision</url>
+  <url type="repository">https://github.com/ZhuangYanDLUT/dlut_vision.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <!-- Old stack contents -->
+  <run_depend>viso2</run_depend>
+  <run_depend>test_point</run_depend>
+  <export>
+    <metapackage/>
+  </export>
+
+</package>
