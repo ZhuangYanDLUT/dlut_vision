@@ -18,7 +18,7 @@
   <buildtool_depend>catkin</buildtool_depend>
   
   <!-- Old stack contents -->
-  <run_depend>viso2</run_depend>
+  <run_depend>dlut_viso2</run_depend>
   <run_depend>test_point</run_depend>
   <export>
     <metapackage/>

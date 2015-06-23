@@ -1,7 +1,7 @@
 <package>
   <name>dlut_viso2_ros</name>
   <version>0.0.1</version>
-  <description>This package developed from viso2_ros</description>
+  <description>This package developed from viso2_ros and libviso2</description>
 
   <url type="website">http://ros.org/wiki/dlut_vision</url>
   <url type="repository">https://github.com/ZhuangYanDLUT/dlut_vision.git</url>
