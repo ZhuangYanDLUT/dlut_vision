@@ -16,8 +16,8 @@
 
   <license>GPL</license>
 
-  <maintainer email="zhuang@dlut.edu.cn">Zhuang Yan</maintainer>
-  <maintainer email="wunailiang@gmail.com">Wu Nai Liang</maintainer>
+  <url type="website">http://ros.org/wiki/libviso2</url>
+  <url type="bugtracker">https://github.com/srv/viso2/issues</url>
 
   <author>Andreas Geiger</author>
   <author email="stephan.wirth@uib.es">Stephan Wirth</author>
