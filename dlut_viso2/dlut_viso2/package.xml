@@ -2,18 +2,16 @@
   <name>dlut_viso2</name>
   <version>0.0.1</version>
   <description>
-    A ROS-Wrapper for libviso2, a library for visual odometry, 
-    maintained by the Systems, Robotics and Vision group of the 
-    University of the Balearic Islands, Spain. http://srv.uib.es
+    This package developed from viso2_ros.
   </description>
   
   <license>GPL</license>
 
-  <url type="website">http://ros.org/wiki/viso2</url>
-  <url type="bugtracker">https://github.com/srv/viso2/issues</url>
+  <url type="website">http://ros.org/wiki/dlut_viso2</url>
 
-  <author email="stephan.wirth@uib.es">Stephan Wirth</author>
-  <maintainer email="stephan.wirth@uib.es">Stephan Wirth</maintainer>
+
+  <maintainer email="zhuang@dlut.edu.cn">Zhuang Yan</maintainer>
+  <maintainer email="wunailiang@gmail.com">Wu Nai Liang</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>libviso2</run_depend>
