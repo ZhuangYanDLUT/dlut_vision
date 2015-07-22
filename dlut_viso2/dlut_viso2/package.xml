@@ -2,7 +2,7 @@
   <name>dlut_viso2</name>
   <version>0.0.1</version>
   <description>
-    This package developed from viso2_ros.
+    This package developed from viso2_ros and libviso2.
   </description>
   
   <license>GPL</license>
@@ -14,7 +14,7 @@
   <maintainer email="wunailiang@gmail.com">Wu Nai Liang</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>libviso2</run_depend>
+  <run_depend>dlut_libvo</run_depend>
   <run_depend>dlut_viso2_ros</run_depend>
 
   <export>

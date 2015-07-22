@@ -1,0 +1,20 @@
+<package>
+  <name>dlut_libvo</name>
+  <version>0.0.1</version>
+  <description>
+	dlut_libvo library based on libviso2, so rename this library to dlut_libvo.
+  </description>
+
+  <license>GPL</license>
+
+  <url type="website">http://ros.org/wiki/dlut_libvo</url>
+
+  <author email="zhuang@dlut.edu.cn">Zhuang Yan</author>
+  <maintainer email="zhuang@dlut.edu.cn">Zhuang Yan</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+    <cpp lflags="-L${prefix}/lib -Wl,-rpath,${prefix}/lib -lviso2" cflags="-msse3 -I${prefix}/libviso2/src/"/>
+  </export>
+</package>

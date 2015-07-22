@@ -16,7 +16,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>libviso2</build_depend>
+  <build_depend>dlut_libvo</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>nav_msgs</build_depend> 
@@ -30,7 +30,7 @@
   <build_depend>std_srvs</build_depend> 
   <build_depend>message_generation</build_depend> 
   
-  <run_depend>libviso2</run_depend> 
+  <run_depend>dlut_libvo</run_depend> 
   <run_depend>roscpp</run_depend> 
   <run_depend>sensor_msgs</run_depend>
   <run_depend>nav_msgs</run_depend>
