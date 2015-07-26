@@ -11,7 +11,7 @@ include_directories(${EIGEN_INCLUDE_DIRS})
 add_definitions(${EIGEN_DEFINITIONS})
 #set(CMAKE_CXX_FLAGS "-msse3")
 add_definitions(-msse3)
-add_library(viso2
+add_library(dlutvo
   dlut_libvo/src/filter.cpp
   dlut_libvo/src/matcher.cpp
   dlut_libvo/src/matrix.cpp
@@ -22,11 +22,11 @@ add_library(viso2
   dlut_libvo/src/viso_stereo.cpp
   dlut_libvo/src/P3p.cpp)
 
-include_directories(libviso2/src
+include_directories(dlutvo/src
   ${catkin_INCLUDE_DIRS}
 )
 
 catkin_package(
   INCLUDE_DIRS dlut_libvo/src
-  LIBRARIES viso2
+  LIBRARIES dlutvo
 )

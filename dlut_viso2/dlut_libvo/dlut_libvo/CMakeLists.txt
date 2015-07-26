@@ -20,12 +20,12 @@ include_directories("${DLUT_LIBVO_SRC_DIR}")
 SET(CMAKE_CXX_FLAGS "-msse3")
 
 # sources
-FILE(GLOB LIBVISO2_SRC_FILES "src/*.cpp")
+FILE(GLOB DLUT_LIBVO_SRC_FILES "src/*.cpp")
 
 # make release version
 set(CMAKE_BUILD_TYPE Release)
 
 # demo program
-add_executable(viso2 ${DLUT_LIBVO_SRC_FILES})
-target_link_libraries (viso2 png ${CERES_LIBRARIES})
+add_executable(dlut_libvo ${DLUT_LIBVO_SRC_FILES})
+target_link_libraries (dlutvo png ${CERES_LIBRARIES})
 

@@ -37,7 +37,7 @@ catkin_package()
 
 add_definitions(-msse3)
 
-include_directories(src ${libviso2_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS})
+include_directories(src ${dlut_libvo_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS})
 
 add_executable(stereo_odometer
   src/stereo_odometer.cpp)
